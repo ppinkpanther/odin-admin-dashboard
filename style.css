@@ -47,18 +47,92 @@ table {
 	border-spacing: 0;
 }
 
+/* Main Code */
 
 body {
 	height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
 	display: grid;
-	grid-template-columns: clamp(200px, 15%, 400px) 75%;
+	grid-template-columns: clamp(200px, 15%, 400px) auto;
+}
+
+a {
+	text-decoration: none;
 }
 
 .side-menu {
-	height: 100%;
-	background-color: #34d399;
+	background-color: #831843;
+	padding: 20px;
 	
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
+}
+
+.side-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.side-menu ul a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.main {
+	display: grid;
+	grid-template-rows: 15% auto;
+}
+
+header {
+	background-color: green;
+	padding: 10px 30px;
+
+	display: grid;
+}
+
+header .top-content,
+header .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+header .top-content {
+
+}
+
+header .top-content .top-buttons {
+	display: flex;
+	/* justify-content: ; */
+	align-items: center;
+}
+
+header .top-content label {
+	display: none;
+}
+
+header .bottom-content {
+
+}
+
+header .bottom-content ul {
+	display: flex;
+	gap: 20px;
+}
+
+.main .main-content {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.main .main-content .projects {
+	
+}
+
+.main .main-content .project-card {
+	background-color: aqua;
 }
