@@ -127,19 +127,28 @@ header .bottom-content ul {
 .main .main-content {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	grid-template-rows: 50px auto;
+	grid-template-rows: auto;
 	gap: 10px;
 
 	padding: 10px;
 }
-
+/* 
 .main .main-content > h2 {
 	padding-top: 20px;
-	font-size: 1.25rem;
+	font-size: 1rem;
+	font-weight: bold;
+} */
+
+.main .main-content .projects,
+.main .additional-info .announcements,
+.main .additional-info .trending {
+	display: grid;
+	grid-template-rows: 20px auto;
 }
 
-.main .main-content .projects {
+.main .main-content .projects .project-content {
 	box-sizing: border-box;
+	height: ;
 	
 	display: grid;
 	grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -149,5 +158,11 @@ header .bottom-content ul {
 
 .main .main-content .project-card {
 	background-color: aqua;
-	border: 2px solid red;
+	border-left: 4px solid red;
+	border-radius: 4px;
+}
+
+.main .additional-info {
+	display: grid;
+	/* grid-template-rows: ; */
 }
