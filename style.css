@@ -214,3 +214,13 @@ header .bottom-content ul {
 	border-bottom: 2px solid black;
 	
 }
+
+.additional-info .trending-content{
+	padding: 20px;
+}
+
+.trending-content li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
