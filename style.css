@@ -124,6 +124,17 @@ header .bottom-content ul {
 	gap: 20px;
 }
 
+header .bottom-content ul li {
+	flex-basis: 75px;
+}
+
+header .bottom-content ul button {
+	border-radius: 10px;
+	border: none;
+	height: 25px;	
+	width: 75px;
+}
+
 .main .main-content {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
