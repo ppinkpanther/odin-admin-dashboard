@@ -152,6 +152,9 @@ header .bottom-content ul {
 .main .main-content .project-card {
 	background-color: aqua;
 	border-left: 4px solid red;
+
+	display: grid;
+	grid-template-rows: 25% 25% 1fr;
 }
 
 .main .main-content .project-card
@@ -182,7 +185,11 @@ header .bottom-content ul {
 }
 
 .main .additional-info .announcements-content li .announcement-item {
-	display: grid;
+	
+}
+
+.announcement-item h3 {
+	font-weight: bold;
 }
 
 .main .additional-info .announcements-content li:nth-child(2) {
