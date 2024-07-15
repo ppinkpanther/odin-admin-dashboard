@@ -152,9 +152,26 @@ header .bottom-content ul {
 .main .main-content .project-card {
 	background-color: aqua;
 	border-left: 4px solid red;
+	padding: 20px;
+
+	position: relative;
 
 	display: grid;
-	grid-template-rows: 25% 25% 1fr;
+	grid-template-rows: 50% 50%;
+}
+
+.project-card .card-text h3{
+	font-weight: bold;
+}
+
+.project-card .card-text p {
+
+}
+
+.project-card .card-options {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
 }
 
 .main .main-content .project-card
