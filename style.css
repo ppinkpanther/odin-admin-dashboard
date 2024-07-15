@@ -142,7 +142,6 @@ header .bottom-content ul {
 
 .main .main-content .projects .project-content {
 	box-sizing: border-box;
-	height: ;
 	
 	display: grid;
 	grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -153,10 +152,32 @@ header .bottom-content ul {
 .main .main-content .project-card {
 	background-color: aqua;
 	border-left: 4px solid red;
+}
+
+.main .main-content .project-card
+.main .additional-info .announcements-content,
+.main .additional-info .trending-content {
 	border-radius: 4px;
 }
 
 .main .additional-info {
 	display: grid;
 	/* grid-template-rows: ; */
+}
+
+.main .additional-info .announcements-content,
+.main .additional-info .trending-content {
+	background-color: orange;
+	display: grid;
+}
+
+.main .additional-info .announcements-content .announcement-item {
+	padding: ;
+	display: grid;
+}
+
+.main .additional-info .announcements-content .announcement-item:nth-child(2) {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	
 }
