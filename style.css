@@ -171,9 +171,12 @@ header .bottom-content ul {
 	display: grid;
 }
 
+.main .additional-info .announcements-content {
+	padding: 10px 20px; 
+}
+
 .main .additional-info .announcements-content .announcement-item {
-	padding: ;
-	display: grid;
+	
 }
 
 .main .additional-info .announcements-content .announcement-item:nth-child(2) {
