@@ -92,8 +92,8 @@ a {
 	gap: 20px;
 }
 
-.side-menu ul img {
-	width: 30px;
+.side-menu ul svg {
+	width: 20px;
 	color: var(--header-color);
 }
 
@@ -140,7 +140,7 @@ header .top-content {
 	border-radius: 20px;
 }
 
-.top-content .searchbar img {
+.top-content svg {
 	width: 30px;
 }
 
@@ -148,10 +148,6 @@ header .top-content {
 	display: flex;
 	align-items: center;
 	gap: 20px;
-}
-
-.top-content .top-buttons img {
-	width: 30px;
 }
 
 header .top-content label {
