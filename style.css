@@ -140,6 +140,10 @@ header .top-content {
 	border-radius: 20px;
 }
 
+input[type=search]:focus {
+	outline: none;
+}
+
 .top-content svg {
 	width: 30px;
 }
@@ -222,6 +226,21 @@ header .bottom-content ul button {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 20px);
+	grid-template-rows: 20px;
+	gap: 20px;
+}
+
+.project-card .card-options button {
+	background-color: rgba(255, 0, 0, 0);
+	border: none;
+	padding: none;
+}
+
+.project-card .card-options svg {
+	height: 100%;
 }
 
 .main .main-content .project-card
