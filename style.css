@@ -51,7 +51,7 @@ table {
 
 :root {
 	--subtext-color: #838181;
-	--text-color: #404040;
+	--text-color: #2e2e2e;
 
 	--primary-color: #e6e6e6;
 	--secondary-color: #713f12;
@@ -238,7 +238,7 @@ header .bottom-content ul button {
 }
 
 .project-card .card-text p {
-
+	color: var(--subtext-color);
 }
 
 .project-card .card-options {
@@ -260,6 +260,7 @@ header .bottom-content ul button {
 
 .project-card .card-options svg {
 	height: 100%;
+	color: var(--text-color);
 }
 
 .main .main-content .project-card
